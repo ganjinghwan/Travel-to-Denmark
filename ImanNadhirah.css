@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Abhaya Libre', serif;
+    
+    
+    
+}
+body{
+    background-color:rgb(255, 222, 218);
+}
+header{
+    background-image:linear-gradient(rgba(228, 198, 198, 0.8),rgba(228, 198, 198, 0.7)), url(IMNCV/back3.jpg);
+    background-position: center;
+    background-size: cover;
+    height:500px;
+    width: 1200px;
+    border-radius:10px;
+    margin-top:40px;
+    margin-left:75px;
+
+}
+.navlinks{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    text-align: right;
+    padding-left:700px;
+
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+    position: relative;
+}
+.navlinks ul li a{
+    color: rgb(76, 45, 105);
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.navlinks ul li:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.main img{
+    height:300px;
+    width:300px;
+    border-radius: 100%;
+    margin-left: 100px;
+    
+}
+
+.contain{
+    display: inline-block;
+}
+.main{
+    display:flex;
+    align-items: center;
+}
+.main #iman{
+    margin-left: 150px;
+}
+h1{
+    font-size: 80px;
+    padding:0;
+    margin:0;
+    color: rgb(86, 67, 122)
+}
+.contain h2{
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+
+    
+
+#hello{
+    
+    height:300px;
+    width:500px;
+    margin-top:40px;
+    margin-left:80px;
+
+
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro h2{
+    text-align: left;
+    padding-top: 10px;
+}
+.intro .content img{
+    height:250px;
+    width:250px;
+    padding-left: 0;
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    text-align: center;
+}
+h3{
+    padding-bottom: 50px;
+    font-size: 22px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+.about .content{
+    background-color: rgb(241, 178, 167);
+    color: #fff;
+    padding: 30px 40px;
+    margin: 20px 80px 30px 100px;
+    width: 1100px;
+    display: inline-block;
+    align-items: center;
+    border: 3px solid white;
+    
+}
+.text p{
+    letter-spacing: 2px;
+}
+.text{
+    display: inline-block;
+}
+#iman{
+    padding-left: 60px;
+}
+.more{
+    
+    
+    margin: 20px 40px 20px 90px;
+    height:400px;
+    width:310px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow:hidden;
+    
+}
+
+
+
+.more img{
+    height:400px;
+    width:310px;
+    border-radius: 10px;
+    
+}
+ .overlay{
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    position: absolute;
+    text-align: left;
+    padding:60px 30px 30px 40px;
+    background: transparent;
+    color:black !important;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    transition: 0.5s;
+    opacity:0;
+    
+    border-radius: 10px;
+}
+.overlay h3{
+    padding-left: 55px;
+    font-size: 32px;
+}
+.overlay h4{
+    font-size: 24px;
+}
+.overlay:hover{
+    background:rgba(255, 222, 218, 0.7);
+    border-radius: 10px;
+    opacity:1;
+}
+.academic img{
+    height: 300px;
+    width:100%;
+    
+}
+.school{
+    display: inline-block;
+    margin: 20px 40px 20px 40px;
+    padding:40px 10px 30px 10px;
+    text-align: center;
+
+
+}
+.about_academic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.school li{
+    font-size: 19px;
+    padding: 10px 2px;
+    margin:20px 10px 20px 30px;
+    
+}
+.school .content{
+    background-color: rgb(241, 178, 167);
+    border-radius: 10px;
+}
+.contact p{
+    font-size: 20px;
+}
+
+.contact{
+    width:150px;
+    height:100px;
+    background-color:rgb(241, 178, 167) ;
+    display:inline-block;
+    text-align: center;
+    margin:40px 40px;
+    padding: 40px 50px;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+    
+}
+#contact .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact i{
+    font-size: 40px;
+}
+ .contact:hover { 
+    transform: scale(1.1); 
+}

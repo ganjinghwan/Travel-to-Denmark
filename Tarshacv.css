@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px
+    background-color:white;
+    height: 150vh;
+ 
+}
+  
+.clearfix{clear: both;}
+.resume-boxT{ 
+    width: 800px;
+    heigth: 1000px;
+    margin: 50px;
+    background-color:rgb(77, 55, 22);
+    position: relative;
+    left:300px;
+}
+.box-outerT{
+    padding: 30px;
+
+}
+.box-1T{
+    background-color:burlywood;
+    float:left;
+    width: 40%;
+    height: 1000px;
+}
+.box-2T{
+    background-color: bisque;
+    height: 860px;
+    width: 100%;
+    float: left;
+    padding:70px;
+    margin-left:100%;
+    margin-bottom: 1000px;
+    position: relative;
+    bottom:994px;
+}
+.profileT{
+    width: 100%;
+    position: center;
+    
+   
+}
+
+.content{
+    padding: 20px;
+}
+
+h1{
+    color:black;
+    font-family: system-ui;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center ;
+}
+p{
+    color:black;
+    font-family: system-ui;
+    font-weight: 300;
+    margin:10px;
+  
+    
+}
+#progress{
+    background-color: whitesmoke;
+    border-radius: 13px;
+    height: 8px;
+    width: 60%;
+    padding: 3px;
+}
+#progress:after{
+    content:'';
+    display: block;
+    background-color:rgb(226, 180, 96);
+    border-radius:9px;
+    height: 8px;
+    width: 70%;
+}
+#progress1{
+    background-color: whitesmoke;
+    border-radius: 13px;
+    height: 8px;
+    width: 60%;
+    padding: 3px;
+}
+#progress1:after{
+    content:'';
+    display: block;
+    background-color: rgb(226, 180, 96);
+    border-radius:9px;
+    height: 8px;
+    width: 100%;
+}
+#progress2{
+    background-color: whitesmoke;
+    border-radius: 13px;
+    height: 8px;
+    width: 60%;
+    padding: 3px;
+}
+#progress2:after{
+    content:'';
+    display: block;
+    background-color:rgb(226, 180, 96);
+    border-radius:9px;
+    height: 8px;
+    width: 100%;
+}
+
